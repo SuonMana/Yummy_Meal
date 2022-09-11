@@ -1,0 +1,110 @@
+@media only screen and (min-width:768px){
+    body{
+        background-color: lightskyblue;
+    }
+
+    .icon {
+        display: none;
+    }
+
+    nav ul {
+        display:block;
+        list-style-type: none;
+    }
+
+    nav ul li{
+        display: inline-block;
+        width: 17.5%;
+        text-align: center;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: lavenderblush;
+        font-weight: bold;
+    }
+
+    nav ul li a:hover{
+        color: black;
+    }
+
+    .b-food-card {
+        width: 30%;
+        display: inline-block;
+    }
+
+    .best-food {
+        text-align: center;
+    }
+
+    .food-card img {
+        width: 30%;
+        height: 100%;
+        float: left;
+    }
+
+    .food-detail {
+        width: 60%;
+        float: left;
+        height: 100%;
+    }
+
+    .price{
+        width: 10%;
+        float: right;
+        height: 100%;
+    }
+
+    .contact {
+        width: 50%;
+        float: left;
+        text-align: center;
+        
+    }
+
+    iframe {
+        width: 50%;
+        float: right;
+    }
+
+    .row {
+        width: 30%;
+        display: inline-block;
+        
+    }
+
+    .row:nth-child(4) {
+        width: 100%;
+    }
+
+    .wrapper {
+        padding: 10px;
+        height: 400px;
+    }
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width:992px){
+    body{
+        background-color: lightgrey;
+    }
+
+    .food-card{
+        width: 45%;
+        display: inline-block;
+    }
+
+    .food-menu {
+        text-align: center;
+    }
+
+    .food-detail{
+        text-align:left;
+    }
+}
